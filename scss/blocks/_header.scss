@@ -1,0 +1,196 @@
+.header {
+  &__logo {
+    margin-top: 77px;
+    margin-left: 165px;
+    margin-bottom: 77px;
+  }
+
+  &__list {
+    margin-left: 80px;
+    margin-top: 83px;
+    display: flex;
+  }
+
+  &__item {
+    margin-left: 20px;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+  }
+
+  &__link {
+    color: #fff;
+  }
+
+  &__link:hover {
+    border-bottom: 1px solid red;
+  }
+
+  &__button {
+    width: 153px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    border: 2px solid #fff;
+    background-color: #014e56;
+    margin-left: 577px;
+    margin-top: 73px;
+    margin-bottom: 77px;
+  }
+
+  &__button--link {
+    color: #fff;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: 600;
+    font-weight: 600;
+    line-height: 28px;
+  }
+}
+
+.main {
+  &__photo1 {
+    margin-right: 1400px;
+  }
+
+  &__head {
+    color: #fff;
+    font-family: Livvic;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px;
+    margin-right: 950px;
+    margin-top: -230px;
+  }
+
+  &__heade1 {
+    color: #f67e7e;
+    font-family: Livvic;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    margin-right: 1000px;
+    margin-top: -50px;
+  }
+
+  &__item {
+    margin-left: 100px;
+    display: flex;
+  }
+
+  &__item {
+    margin-top: 20px;
+  }
+
+  &__head3 {
+    color: #fff;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 155.556% */
+  }
+
+  &__left {
+    margin-top: -400px;
+  }
+
+  &__left--head {
+    color: #fff;
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px; /* 166.667% */
+    letter-spacing: -0.115px;
+  }
+
+  &__left--box {
+    width: 540px;
+    height: 1px;
+    flex-shrink: 0;
+    background-color: #fff;
+    margin-left: 650px;
+  }
+
+  &__button {
+    width: 123px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    border: 2px solid #fff;
+    background-color: #fff;
+    margin-top: 20px;
+  }
+}
+
+.footer {
+  &__logo {
+    margin-right: 1000px;
+    margin-top: 48px;
+  }
+
+  &__list {
+    display: flex;
+    margin-left: 100px;
+  }
+
+  &__item {
+    margin-left: 20px;
+  }
+
+  &__link {
+    color: #fff;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 155.556% */
+  }
+
+  &__link:hover {
+    border-bottom: 1px solid red;
+  }
+
+  &__main {
+    margin-left: 2500px;
+    margin-top: -160px;
+  }
+
+  &__text {
+    color: #fff;
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    margin-left: 300px;
+    margin-top: -10px;
+  }
+
+  &__main--link {
+    margin-left: 3400px;
+    margin-top: -110px;
+    display: flex;
+  }
+
+  &__main--item {
+    margin-left: 20px;
+  }
+
+  &__mian--text {
+    color: #fff;
+    text-align: right;
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    margin-right: 2500px;
+    margin-top: 50px;
+  }
+}

@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Livvic", "Arrial", "Tahoma" sans-srif;
+}
+
+.contener {
+  max-width: 1480px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.header {
+  width: 1480px;
+  flex-shrink: 0;
+  background-color: #014e56;
+  display: flex;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main {
+  width: 1480px;
+  height: 489px;
+  flex-shrink: 0;
+  background-color: #014e56;
+}
+
+.footer {
+  width: 1480px;
+  height: 196px;
+  flex-shrink: 0;
+  background-color: #002529;
+}
